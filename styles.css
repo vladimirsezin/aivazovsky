@@ -1,0 +1,72 @@
+@import url("basic.css");
+@import url("variable.css");
+@import url("header.css");
+.name_title {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title_one {
+  text-align: center;
+  font-size: 45px;
+  margin-top: 35px;
+}
+.title_two {
+  margin-top: 5px;
+  font-size: 18px;
+}
+.portrait {
+  margin-top: 25px;
+  width: 950px;
+  height: 535px;
+}
+.overlay {
+  padding-bottom: 100px;
+  box-sizing: border-box;
+  margin-top: 70px;
+  background-color: #f6f6f6;
+}
+.about_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 330px;
+  padding-left: 330px;
+  text-align: center;
+}
+.section_title {
+  margin-top: 55px;
+  font-size: 35px;
+}
+.about_title_two {
+  font-size: 18px;
+}
+.p_one {
+  margin: 0;
+
+  font-size: 18px;
+  text-align: justify;
+  font-weight: 600;
+}
+.break_two {
+  margin: 0;
+  margin-top: 20px;
+  width: 420px;
+  border: 1px solid grey;
+}
+.history {
+    margin-top:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.history_image {
+    margin-top:35px;
+}
+.image_subtitle {
+    margin-top:30px;
+    font-size:18px;
+    text-align: start;
+}
